@@ -1,10 +1,29 @@
 .App {
   text-align: center;
+  margin-top: 10vh;
+}
+*{
+  color: white;
+}
+body{
+  background-color: black;
+}
+input{
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  border: 0px;
+  color: black;
+}
+span{
+  color: rgb(239, 255, 93);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  display: inline-block;
+  border: 1px solid rgb(33, 102, 167);
+  margin: 5px;
+  padding: 4px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
